@@ -1,11 +1,11 @@
-package com.gmail.apachdima.desirejob.commonservice;
+package com.gmail.apachdima.desirejob.commonservice.constant;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public enum CommonEntity {
+public enum Model {
 
     BOOK("Book"),
     USER("User");
