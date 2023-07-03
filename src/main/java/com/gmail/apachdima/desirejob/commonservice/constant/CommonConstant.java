@@ -13,7 +13,9 @@ public enum CommonConstant {
     COLON(":"),
     DOT("."),
     EQUAL("="),
-    COMMA(",");
+    COMMA(","),
+    SPACE(" "),
+    EMPTY("");
 
     private final String value;
 }
