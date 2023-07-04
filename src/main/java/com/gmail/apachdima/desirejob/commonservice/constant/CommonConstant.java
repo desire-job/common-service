@@ -7,7 +7,9 @@ import lombok.Getter;
 @Getter
 public enum CommonConstant {
 
-    MESSAGE_SOURCE_PATH("classpath:messages/messages"),
+    COMMON_MESSAGE_SOURCE_PATH("classpath:messages/common_messages"),
+    BOOK_SERVICE_MESSAGE_SOURCE_PATH("classpath:messages/book_service_messages"),
+    USER_SERVICE_MESSAGE_SOURCE_PATH("classpath:messages/user_service_messages"),
     AUTH_HEADER("Authorization"),
     BASIC_AUTH_HEADER_PREFIX("Basic "),
     COLON(":"),

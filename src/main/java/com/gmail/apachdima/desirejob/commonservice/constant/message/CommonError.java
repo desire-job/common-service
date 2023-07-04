@@ -15,8 +15,6 @@ public enum CommonError {
     HTTP_METHOD_NOT_ALLOWED("error.http.method.not.allowed"),
     MEDIA_TYPE_NOT_SUPPORTED("error.media.type.not.supported"),
     INTERNAL_SERVER_ERROR_OCCURRED("error.internal.server.error.occurred"),
-    SEARCH_CRITERIA_OPERATION_NOT_SUPPORTED("error.search.criteria.operation.not.supported"),
-    CONVERSION_FAILED("error.conversion.failed"),
     LOG_CONTROLLER_EXECUTE("error.log.controller.execute");
 
     private final String key;
