@@ -8,7 +8,8 @@ import lombok.Getter;
 public enum Model {
 
     BOOK("Book"),
-    USER("User");
+    USER("User"),
+    AUTH_CLIENT("Client");
 
     private final String name;
 
