@@ -11,7 +11,14 @@ import javax.validation.constraints.Size;
 @AllArgsConstructor
 @Data
 public class SignInRequestDTO {
-
+    @NotBlank
+    private String grantType;
+    @NotBlank
+    private String clientId;
+    @NotBlank
+    private String clientSecret;
+    @NotBlank
+    private String scope;
     @NotBlank
     @Size(min = 2, max = 50)
     private String userName;

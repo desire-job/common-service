@@ -8,7 +8,8 @@ import lombok.Getter;
 public enum Model {
 
     BOOK("Book"),
-    USER("User");
+    USER("User"),
+    ROLE("Role");
 
     private final String name;
 
@@ -17,7 +18,8 @@ public enum Model {
     public enum Field {
 
         ID("id"),
-        USER_NAME("username");
+        USER_NAME("username"),
+        NAME("name");
 
         private final String fieldName;
     }

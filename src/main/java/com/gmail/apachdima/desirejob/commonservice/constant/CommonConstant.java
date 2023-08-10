@@ -12,6 +12,7 @@ public enum CommonConstant {
     USER_SERVICE_MESSAGE_SOURCE_PATH("classpath:messages/user_service_messages"),
     AUTH_HEADER("Authorization"),
     BASIC_AUTH_HEADER_PREFIX("Basic "),
+    BEARER_AUTH_HEADER_PREFIX("Bearer "),
     COLON(":"),
     DOT("."),
     EQUAL("="),

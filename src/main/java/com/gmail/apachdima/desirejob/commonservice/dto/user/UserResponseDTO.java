@@ -14,11 +14,12 @@ import java.util.Set;
 @Data
 public class UserResponseDTO {
 
-    private String userName;
+    private String userId;
+    private String username;
     private String firstName;
     private String lastName;
     private String email;
     private boolean enabled;
-    private LocalDateTime created;
+    private LocalDateTime createdAt;
     private Set<String> roles;
 }
